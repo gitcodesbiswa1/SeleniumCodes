@@ -1,0 +1,23 @@
+package com.loc;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.devtools.v125.input.model.DragData;
+import org.testng.annotations.Test;
+
+public class PartialLinkText {
+	WebDriver dr;
+	@Test
+	public void PlTextSetup() {
+		System.setProperty("webdriver.chrome.driver", "./ChromeDriverJars/chromedriver.exe");
+		dr= new ChromeDriver();
+		
+		dr.manage().window().maximize();
+	}
+	
+	@Test
+	public void PlText() throws Exception {
+		dr.navigate().to("https://www.hollandandbarrett.com/");
+		Thread.sleep(5000);
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;HandleAlert.java&apos; to &apos;CaseStudy/src/com.alertAssignment&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumAlerts&apos;&#x0D;&#x0A;- Destination element: &apos;CaseStudy/src/com.alertAssignment&apos;&#x0D;&#x0A;- Original element: &apos;com.handlealerts.HandleAlert.java&apos;" description="Copy compilation unit" destination="=CaseStudy/src&lt;com.alertAssignment" element1="/src&lt;com.handlealerts{HandleAlert.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1724562572745" units="1" version="1.0"/>
+</session>

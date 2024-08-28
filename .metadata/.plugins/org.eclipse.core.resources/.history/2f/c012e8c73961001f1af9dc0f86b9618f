@@ -1,0 +1,14 @@
+package com.mouse;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Hover {
+	WebDriver dr;
+	
+	public void hovercheck() {
+		System.setProperty("webdriver.chrome.driver","./ChromeDriverJars/chromedriver.exe");
+		dr= new ChromeDriver();
+		dr.manage().window().maximize();
+		dr.get(url);
+	}
+}

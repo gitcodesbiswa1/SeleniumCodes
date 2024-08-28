@@ -1,0 +1,13 @@
+package com.csv;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ReadCSV {
+
+	public void csvrd() {
+		System.setProperty("webdriver.chrome.driver", "./ChromeDriverJars/chromedriver.exe");
+		ChromeDriver dr= new ChromeDriver();
+		dr.manage().window().maximize();
+		dr.get("https://mail.rediff.com/cgi-bin/login.cgi");
+	}
+}

@@ -1,0 +1,16 @@
+package com.loc;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class SeleLocators {
+	@Test
+	public void ExampleId() throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver","./ChromeDriverJars/chromedriver.exe");
+		ChromeDriver dr= new ChromeDriver();
+		dr.get("https://auth.hollandandbarrett.com/u/login");
+		dr.manage().window().maximize();
+		Thread.sleep(5000);
+		dr.quit();
+	}
+}

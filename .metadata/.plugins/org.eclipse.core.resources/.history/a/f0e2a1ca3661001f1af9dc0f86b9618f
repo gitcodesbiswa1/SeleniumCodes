@@ -1,0 +1,21 @@
+package HandlingScroll;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class TestScrollBy1 {
+	WebDriver dr;
+	String url="https://www.spicejet.com/";
+	
+	@Test
+	public void Test() throws Exception{
+		System.setProperty("webdriver.chrome.driver","./ChromeDriverJars/chromedriver.exe");
+		dr= new ChromeDriver();
+		dr.manage().window().maximize();
+		dr.get(url);
+		
+		((JavaScriptExecutor)driver).executeScript("scroll(0,1200)");
+		Thread.sleep(4000);
+		((JavaScriptExecutor)driver).executeScript("window.scrollBy(0,-1400)");
+
+	}
+}

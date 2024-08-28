@@ -1,0 +1,14 @@
+package com.multi;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+public class MultiFrameTest {
+	WebDriver dr;
+	
+	@Test
+	public void countframes() {
+		System.setProperty("webdriver.chrome.driver", "./")
+	}
+	
+}

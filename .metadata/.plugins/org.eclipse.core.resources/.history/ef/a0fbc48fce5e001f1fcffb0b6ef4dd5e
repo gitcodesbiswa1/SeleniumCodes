@@ -1,0 +1,19 @@
+package com.browse;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Chrome {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Administrator\\Desktop\\Selenium Practice\\LaunchBrowsers\\ChromeDriverJars\\chromedriver.exe");
+		ChromeDriver dr= new ChromeDriver();
+		dr.get("https://www.hollandandbarrett.com/my-account/overview");
+		dr.manage().window().maximize();
+		Thread.sleep(2000);
+		dr.manage().window().minimize();
+		Thread.sleep(3000);
+		dr.quit();
+	}
+
+}

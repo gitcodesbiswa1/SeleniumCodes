@@ -1,0 +1,19 @@
+package com.handlealerts;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class HandleAlert {
+	@Test
+	public void Alertpopup() throws InterruptedException {
+
+		System.setProperty("webdriver.chrome.driver", "./ChromeDriverJars/chromedriver.exe");
+		ChromeDriver dr= new ChromeDriver();
+		dr.get("https://the-internet.herokuapp.com/javascript_alerts");
+		dr.manage().window().maximize();
+		
+		//dr.findElement(By.xpath("")).click();
+		//Thread.sleep(5000);
+	}
+}

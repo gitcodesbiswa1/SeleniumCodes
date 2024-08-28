@@ -1,0 +1,10 @@
+package com.navcom;
+
+public class TestNavigation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.loc;
+
+public class SeleLocators {
+	@Test
+	public void ExampleId() {
+		System.setProperty("webdriver.chrome.driver","./")
+	}
+}
